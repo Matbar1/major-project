@@ -1,0 +1,63 @@
+/* Style the navigation bar */
+.navigation {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+.navigation ul {
+    list-style-type: none;
+    display: flex; /* Use flexbox for horizontal alignment */
+    justify-content: space-around; /* Distribute items evenly */
+}
+
+.navigation li {
+    display: inline; /* Display list items in a row */
+    margin: 0 10px; /* Add some spacing between items */
+}
+
+.navigation a {
+    text-decoration: none;
+    color: white;
+}
+/* Style the contact form */
+.contact-form {
+    margin: 20px auto;
+    max-width: 600px;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+.contact-form h2 {
+    margin-bottom: 15px;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    box-sizing: border-box; /* Ensure padding and border are included in the element's total width */
+}
+
+/* Display form fields in a vertical layout */
+.contact-form label,
+.contact-form input,
+.contact-form textarea,
+.contact-form button {
+    display: block;
+    width: 100%;
+}
+/* Style the footer */
+.footer {
+    text-align: center; /* Center-align the text */
+    padding: 10px;
+    background-color: #f2f2f2;
+}
+

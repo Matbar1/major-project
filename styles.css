@@ -1,0 +1,17 @@
+/* Apply flex display to the <ul> to create a horizontal row */
+.horizontal-list {
+    display: flex;
+    list-style: none; /* Remove the default list bullet points */
+    padding: 0; /* Remove default padding */
+}
+
+/* Style for the <li> elements (list items) */
+.horizontal-list li {
+    margin-right: 20px; /* Add some spacing between items */
+}
+
+/* Optional: Style for the <a> links */
+.horizontal-list li a {
+    text-decoration: none;
+    color: black; /* Change link color as desired */
+}

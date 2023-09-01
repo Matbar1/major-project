@@ -1,0 +1,50 @@
+/* Add this to order.css */
+.nav-list {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  background-color: #333;
+  padding: 10px;
+  margin: 0;
+}
+
+.nav-list li {
+  margin: 0;
+}
+
+.nav-list a {
+  text-decoration: none;
+  color: white;
+}
+
+.product-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.product {
+  text-align: center;
+  width: calc(33.33% - 20px);
+  border: 1px solid #ddd;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.product img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.price {
+  font-size: 1.2em;
+  color: #555;
+}
+
+.quantity {
+  margin-top: 10px;
+}

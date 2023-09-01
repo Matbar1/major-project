@@ -1,0 +1,47 @@
+body {
+    background-image: url('Feature-image-7-ecommerce.jpg');
+    font-family: Arial, sans-serif;
+    background-color: aqua;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aqua;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.nav {
+    background-color: aqua;
+    padding: 5px;
+    text-align: center;
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+    margin: 0 10px;
+}
+
+.content {
+    padding: 20px;
+    text-align: center;
+}
+
+.footer {
+    background-color: aqua;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    transform: translateY(-10px); /* Adjust this value as needed */
+}
